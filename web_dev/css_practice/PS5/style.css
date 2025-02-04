@@ -1,0 +1,9 @@
+div{
+    position: fixed;
+    right: 0px;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    background-image: url("cityscape.jpg");
+    background-size: cover;
+}

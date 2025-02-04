@@ -1,0 +1,17 @@
+#box{
+    background-color: blue;
+    color: white;
+}
+
+/* .heading{
+    color:red;
+} */
+
+h1, h2, h3{
+    color:red;
+    /* selectors also work with comma */
+}
+
+button{
+   background-color: green;
+}

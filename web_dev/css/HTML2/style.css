@@ -1,0 +1,22 @@
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration:blue dotted underline;
+    /* text-decoration: overline;
+    text-decoration: line-through; */
+}
+
+a{
+    text-decoration: none;
+}
+
+#para1{
+    font-family:sans-serif;
+}
+
+#para2{
+    font-family: Helvetica;
+}

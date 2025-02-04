@@ -1,0 +1,42 @@
+/* This is universal selector */
+*{
+    color:green;
+}
+
+/* This is element selector */
+p{
+    color:cyan;
+}
+
+button{
+    color:orange;
+    background-color: white;
+}
+
+body{
+    /* background-color:rgb(255, 150, 0); */
+    background-color: #ffff00;
+}
+
+/* If you have declared properties using universal selector, then if change anything again later on, the later changes will be applied */
+
+/* This is id selector */
+#headingTwo{
+    color:blue;
+}
+
+#one{
+    font-size: 25px;
+    line-height:20px; 
+    /* line height decides the height of the overall text */
+    text-transform: capitalize;
+}
+
+#three{
+    font-size:10px;
+}
+
+.myClass{
+    color: magenta;
+}
+

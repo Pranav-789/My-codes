@@ -1,0 +1,59 @@
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height: 1vh;
+    width: 50%;
+    margin-left: 10%;
+    background-color: yellow;
+    font-size: 1em;
+    width: 5rem;
+} */
+
+div{
+    height: 100px;
+    width : 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+body{
+    background-image: url("grogu.jpg");
+    background-size: cover;
+    /* position: static; */
+    /* top: 50px; */
+    /* The properties for static wont change for top, bottom, right, left and z-index */
+    /* background-color: red; */
+}
+
+#box2{
+    /* position: relative;
+    top: -20px;
+    left: 10px;
+    z-index: 1; */
+    background-color: greenyellow;
+}
+
+#box3{
+    /* position: absolute; 
+    /* relative to parent div  */
+    /* box3 ka parent body tag hai */
+    /* by doing so the box3 will go out from flow and box4 will hide behind box3 not disappear */
+    /* position: sticky; */
+    /* relative to user's scroll */
+    /* top: 500px;
+    left:20px; */ 
+    background-color: blanchedalmond;
+}
+
+#box4{
+    /* position: fixed;
+    /* This is relative from browser and also removes from flow */
+    background-color: pink;
+    /* top: 0; */ 
+}

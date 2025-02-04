@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+div{
+    display:inline-block;
+    border: 2px solid black;
+    height: 100px;
+    width: 50px;
+}
+
+#container{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    flex-direction: row;
+    /* flex dir = row by default */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: flex-start; */
+    /* justify-content: space-around; extra space me adjust ho jana */
+    /* arrangement/layout shift wrt to main axis */
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+    flex-grow: 1;
+    /* align-self: flex-end; */
+}
+
+#box3{
+    background-color: darkkhaki;
+    height: 75;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+    /* align-self: flex-end; */
+}
