@@ -28,7 +28,7 @@ void cnt_sort(int *arr){
     printf("exec \n");
 
     int oparr[10];
-    for (int i = 0; i < 10; i++)
+    for (int i = 9; i >= 0; i--)
     {
         oparr[cntarr[*(arr + i)] - 1] = *(arr + i);
         cntarr[*(arr + i)]--;
