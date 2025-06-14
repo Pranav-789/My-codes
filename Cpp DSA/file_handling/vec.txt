@@ -1,0 +1,4 @@
+Original Data
+12 21 13 31 14 
+Sorted Data
+12 13 14 21 31 

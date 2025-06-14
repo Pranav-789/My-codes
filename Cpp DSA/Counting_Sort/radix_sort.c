@@ -30,7 +30,6 @@ void cnt_sort(int *arr, int pos){
         *(arr + i) = oparr[i];
     }
     printf("exec \n");
-    
 }
 
 int main () {
